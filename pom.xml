@@ -82,8 +82,40 @@
 
     </profiles>
 
+    <!--
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>unpack-core-idl</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>unpack</goal>
+                        </goals>
+                        <configuration>
+                            <artifactItems>
+                                <artifactItem>
+                                    <groupId>com.techresidents.services.core.idl</groupId>
+                                    <artifactId>idl-core</artifactId>
+                                    <outputDirectory>${project.build.directory}/generated-sources/idl-core</outputDirectory>
+                                    <includes>**/*.thrift</includes>
+                                </artifactItem>
+                            </artifactItems>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+    -->
+
   <modules>
+    <module>idl</module>
     <module>idl-java</module>
     <module>idl-python</module>
   </modules>
+
 </project>

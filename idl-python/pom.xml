@@ -73,7 +73,7 @@
                                 <argument>-r</argument>
                                 <argument>--gen</argument>
                                 <argument>py</argument>
-                                <argument>${basedir}/../idl/idl-core.thrift</argument>
+                                <argument>${basedir}/../idl/core.thrift</argument>
                             </arguments>
                         </configuration>
                     </execution>

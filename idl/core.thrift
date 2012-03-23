@@ -1,5 +1,5 @@
 namespace java com.techresidents.services.core.idl.gen
-namespace py techresidents.services.core.idl.gen
+namespace py tridlcore.gen
 
 struct RequestContext {
     1: i32 userId,

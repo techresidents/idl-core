@@ -2,12 +2,9 @@
 
 from distutils.core import setup
 
-setup(name='techresidents services idl core',
+setup(name='tridlcore',
       version='${project.version}',
-      description='30and30 Service',
-      packages=['techresidents',
-                'techresidents.services',
-                'techresidents.services.core',
-                'techresidents.services.core.idl',
-                'techresidents.services.core.idl.gen']
+      description='30and30 Tech Residents IDL Core',
+      packages=['tridlcore',
+                'tridlcore.gen']
       )

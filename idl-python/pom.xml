@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.techresidents.services.core.idl</groupId>
         <artifactId>idl-core</artifactId>
-        <version>0.1-SNAPSHOT</version>
+        <version>0.1.0</version>
     </parent>
 
     <artifactId>idl-core-python</artifactId>

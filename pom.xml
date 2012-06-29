@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.techresidents.services.core.java</groupId>
-        <artifactId>services-pom</artifactId>
-        <version>0.1.0</version>
+        <groupId>com.techresidents.lib.java</groupId>
+        <artifactId>parent-pom</artifactId>
+        <version>0.2.0</version>
     </parent>
 
     <groupId>com.techresidents.services.core.idl</groupId>
@@ -18,9 +18,9 @@
     <inceptionYear>2012</inceptionYear>
 
     <scm>
-        <connection>scm:git:git://dev.30and30.com/30and30/repos/techresidents/services/core/idl/idl-core.git</connection>
-        <developerConnection>scm:git:git://dev.30and30.com/30and30/repos/techresidents/services/core/idl/idl-core.git</developerConnection>
-        <url>scm:git:git://dev.30and30.com/30and30/repos/techresidents/services/core/idl/idl-core.git</url>
+        <connection>scm:git:git://dev.techresidents.com/tr/repos/techresidents/services/core/idl/idl-core.git</connection>
+        <developerConnection>scm:git:git://dev.techresidents.com/tr/repos/techresidents/services/core/idl/idl-core.git</developerConnection>
+        <url>scm:git:git://dev.techresidents.com/tr/repos/techresidents/services/core/idl/idl-core.git</url>
     </scm>
 
     <profiles>

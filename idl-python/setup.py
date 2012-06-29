@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(name='tridlcore',
       version='${project.version}',
-      description='30and30 Tech Residents IDL Core',
+      description='Tech Residents IDL Core',
       packages=['tridlcore',
                 'tridlcore.gen']
       )

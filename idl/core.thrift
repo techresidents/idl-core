@@ -2,9 +2,9 @@ namespace java com.techresidents.services.core.idl.gen
 namespace py tridlcore.gen
 
 /**
- * Common status reporting for all services
+ * Common status reporting.
  */
-enum ServiceStatus {
+enum Status {
     ALIVE = 0,
     STARTING = 1,
     STOPPING = 2,
@@ -57,13 +57,18 @@ service TRService {
     /**
      * Get the status of the service
      */
-    ServiceStatus getStatus(1: RequestContext requestContext),
+    Status getStatus(1: RequestContext requestContext),
 
     /**
      * Get descriptive status message of the service
      */
     string getStatusDetails(1: RequestContext requestContext),
 
+    /**
+     * Get the counter value for the specified service counter
+     */
+    string getCounter(1: RequestContext requestContext,
+                      2: string key),
 
     /**
      * Get counters for this service

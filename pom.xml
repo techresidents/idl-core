@@ -11,7 +11,7 @@
 
     <groupId>com.techresidents.services.core.idl</groupId>
     <artifactId>idl-core</artifactId>
-    <version>0.7-SNAPSHOT</version>
+    <version>0.7.0</version>
     <packaging>pom</packaging>
 
     <name>idl-core idl</name>

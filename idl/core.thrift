@@ -67,7 +67,7 @@ service TRService {
     /**
      * Get the counter value for the specified service counter
      */
-    string getCounter(1: RequestContext requestContext,
+    i64 getCounter(1: RequestContext requestContext,
                       2: string key),
 
     /**
